@@ -1,0 +1,8 @@
+*
+**/
+!templates
+templates/skeletal
+!templates/skeletal
+!templates/skeletal/**
+!.gitignore
+!README.md

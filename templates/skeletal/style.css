@@ -1,0 +1,81 @@
+body{
+    background: #eeeeee;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.site-title{
+    padding: 1rem;
+}
+
+main{
+    width: 75%;
+    background: white;
+    padding: 1rem;
+}
+
+aside{
+    width: 25%;
+    background: rgb(226, 226, 226);
+    padding: 1rem;
+
+}
+
+.menu ul{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    width: 100%;  
+    color: black;
+}
+
+.menu ul li{
+    margin: 0 1rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.breadcrumbs{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+.breadcrumbs ol{
+    list-style: none;
+    padding: 0.25rem;
+    margin: 0;
+}
+
+.breadcrumbs ol li{
+    display: inline;
+}
+
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgb(226, 226, 226);
+    padding: 1rem;
+    box-sizing: border-box;
+}

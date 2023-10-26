@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="template" client="site">
+	<name>skeletal</name>
+	<version>1.0</version>
+	<creationDate>2017-02</creationDate>
+	<author>Your Name</author>
+	<authorEmail>admin@yoursite.com</authorEmail>
+	<copyright>(C) 2017 Open Source Matters, Inc.</copyright>
+	<description>Your Description</description>
+	<inheritable>1</inheritable>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>menu</position>
+		<position>search</position>
+		<position>breadcrumbs</position>
+		<position>sidebar-left</position>
+		<position>sidebar-right</position>
+		<position>footer</position>
+		<position>debug</position>
+		<!-- used directly in the error.php and included here so the position will appear in the list of available positions -->
+		<position>error-403</position>
+		<position>error-404</position>
+	</positions>
+
+</extension>
