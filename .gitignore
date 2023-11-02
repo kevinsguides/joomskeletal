@@ -6,3 +6,4 @@ templates/skeletal
 !templates/skeletal/**
 !.gitignore
 !README.md
+!preview.jpg

@@ -10,3 +10,5 @@ I skipped using language files entirely.
 
 This is not the "proper" way to make a template. But if you're just doing this for yourself, it may be a nice
 starting point.
+
+![screenshot](./preview.jpg)
