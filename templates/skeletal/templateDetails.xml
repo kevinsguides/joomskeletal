@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="template" client="site" method="upgrade">
 	<name>skeletal</name>
-	<version>1.0</version>
+	<version>1.01</version>
 	<creationDate>2017-02</creationDate>
 	<author>Your Name</author>
 	<authorEmail>admin@yoursite.com</authorEmail>
@@ -11,6 +11,8 @@
 	<files>
 		<filename>index.php</filename>
 		<filename>templateDetails.xml</filename>
+		<filename>script.js</filename>
+		<filename>style.css</filename>
 	</files>
 	
 	<positions>
